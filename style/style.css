@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.merriweather-sans-normal {
+    font-family: "Merriweather Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* header
+{
+    border: 2px solid black;
+    height: 700px;
+} */
+section.banner {
+    width: 1320px;
+    height: 600px;
+    margin: 50px auto;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url("/images/Banner\ Image.png");
+    ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner .parent-header {
+    /* border: 2px solid black; */
+    width: 632px;
+    height: 246px;
+}
+
+.banner .parent-header .banner-title {
+    font-size: 32px;
+    color: white;
+    text-align: center;
+}
+
+.banner .parent-header .banner-heading {
+    margin-top: 10px;
+    font-size: 72px;
+    color: white;
+    text-align: center;
+}
+
+section.new-year-photo {
+    width: 802px;
+    height: 806px;
+    /* border: 2px solid black; */
+    margin: 100px auto 50px auto;
+}
+
+.new-year-photo .new-year-title {
+    text-align: center;
+    font-size: 88px;
+    color: #FF0000;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.new-year-photo .new-year-heading {
+    text-align: center;
+    font-size: 24px;
+    color: #FF0000;
+    margin-bottom: 20px;
+}
+
+.new-year-photo .new-year-description {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 30px;
+}
+
+section.victorr {
+    width: 1320px;
+    height: 600px;
+    margin: 50px auto;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url("/images/Vectorrr.png");
+    ;
+    display: flex;
+    align-items: center;
+}
+
+section.victorr .victorr-parent {
+    width: 662px;
+    height: 250px;
+    /* border: 2px solid red; */
+    margin-left: 100px;
+}
+
+h1.victorr-heading {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 80px;
+    letter-spacing: 20%;
+    text-align: left;
+}
+
+p.victorr-paragraph {
+    font-size: 18px;
+    opacity: 0.8;
+    text-align: left;
+    color: white;
+}
+
+.btn {
+
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 10px 5px;
+    font-size: 20px;
+}
+
+.btn a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+}
+
+section.new-park-hotel {
+    width: 1320px;
+    height: 482px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+}
+
+.new-park-hotel .new-park-parent {
+    width: 549px;
+    height: 272px;
+}
+
+.new-park-hotel .new-park-parent .new-park-child {
+    height: 168px;
+    width: 549px;
+    text-align: center;
+}
+
+p.font {
+    font-size: 32px;
+    padding: 7px;
+}
+
+span.first-word {
+    color: red;
+}
+
+.new-park {
+    text-align: center;
+    margin-top: 55px;
+}
+
+.new-park .btn {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+
+section.new-best-offer {
+    width: 1320px;
+    height: 463px;
+    margin: 50px auto;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.new-img {
+    outline: 10px solid red;
+    border-radius: 60%;
+    object-fit: cover;
+    outline-offset: 30px;
+    border: none;
+}
+
+.new-first-description {
+    width: 35%;
+    /* border: 2px solid red; */
+}
+
+.new-image {
+    width: 30%;
+    /* border: 2px solid red; */
+}
+
+.new-second-description {
+    width: 35%;
+    /* border: 2px solid red; */
+}
+
+.new-title {
+    font-size: 24px;
+    color: red;
+    padding: 5px;
+}
+
+.new-title-2 {
+    font-size: 48px;
+    /* color: red; */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.new-paragraph {
+    opacity: 0.7;
+    font-size: 20px;
+}
+
+.new-second-title {
+    color: red;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.new-second-paragraph {
+    opacity: 0.7;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+section.holiday {
+    width: 1320px;
+    height: 986px;
+    margin: 50px auto;
+    /* border: 2px solid red; */
+    background-image: url("/images/Rectangle\ 2.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.holiday-title {
+    width: 677px;
+    height: 136px;
+    /* border: 2px solid red; */
+    text-align: center;
+    margin: 5px auto 5px auto;
+}
+
+.holiday-ti-1 {
+    font-size: 20px;
+}
+
+.holiday-ti-2 {
+    font-size: 72px;
+}
+
+span.holiday-color {
+    color: red;
+}
+
+.holiday-paragraph {
+    width: 1068px;
+    height: 96px;
+    margin: 0px auto;
+    /* padding: 30px 30px; */
+    margin-top: 82px;
+}
+
+.holiday-para {
+    text-align: center;
+}
+
+.holiday-photo {
+    width: 1320px;
+    height: 662px;
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.photo-2 {
+    margin-bottom: 60px;
+    margin-right: 50px;
+}
+
+
+
+
+section.the-best-gift {
+    width: 1320px;
+    height: 1163px;
+    margin: 50px auto;
+    /* border: 2px solid red; */
+}
+
+.the-best-gift-title {
+    font-size: 24px;
+    padding: 10px;
+    color: red;
+}
+
+.the-best-gif-title-2 {
+    font-size: 48px;
+    padding: 10px;
+    font-weight: bold;
+
+}
+
+.the-best-paragraph {
+    width: 896px;
+    height: 64px;
+    text-align: left;
+    margin-bottom: 25px;
+    margin-left: 10px;
+}
+
+.the-best-para {
+    font-size: 20px;
+    opacity: 0.6;
+}
+
+.the-best-gift-first {
+    width: 1320px;
+    height: 450px;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.the-best-gift-one {
+    width: 424px;
+    height: 450px;
+    /* border: 2px solid red; */
+}
+
+.the-best-gift-second {
+    width: 1320px;
+    height: 450px;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* margin-bottom: 20px; */
+}
+
+section.suscibe {
+    width: 1320px;
+    height: 616px;
+    margin: 50px auto;
+    border: 2px solid red;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.sus-img {
+    text-align: center;
+    margin-top: 60px;
+    padding: 10px;
+}
+
+.sub-header {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sus-paragraph {
+    width: 896px;
+    height: 64px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.sus-para {
+    opacity: 0.6;
+}
+
+.search {
+    width: 648px;
+    height: 72px;
+    text-align: center;
+    margin: 0px auto;
+    border: 2px solid red;
+}
