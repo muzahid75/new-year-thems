@@ -23,7 +23,6 @@ section.banner {
     margin: 50px auto;
     border-radius: 16px;
     background: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url("/images/Banner.png");
-    ;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -84,7 +83,6 @@ section.victorr {
     margin: 50px auto;
     border-radius: 16px;
     background: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url("/images/Vectorrr.png");
-    ;
     display: flex;
     align-items: center;
 }
