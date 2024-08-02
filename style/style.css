@@ -427,7 +427,8 @@ footer
     width: 100%;
     height: 609px;
     background-color: black;
-    padding-top: 100px;
+    /* border: 2px solid red; */
+    
 }
 .footer-title
 {
@@ -436,7 +437,9 @@ footer
     align-items: center;
     width: 1185px;
     height: 80px;
+    padding-top: 100px;
     margin: 0px auto;
+
 }
 
 .footer-paragraph
@@ -446,7 +449,7 @@ footer
 
 .social-media
 {
-    margin: 50px;
+    margin: 100px 50px 50px 50px;
     text-align: center;
     border-bottom: 2px solid rgba(100,100,100, 0.5);
     border-top: 2px solid rgba(100,100,100, 0.5);
